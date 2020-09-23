@@ -92,7 +92,7 @@ a {
 }
 
 .top-wrapper {
-    background-image: url(../image/IMG_0835.JPG);
+    background-image: url(IMG_0835.JPG);
     background-size: cover;
     padding: 120px 0 240px 0;
     color: white;
@@ -272,15 +272,15 @@ footer {
 }
 
 .primary-top {
-    background-image: url(../image/IMG_6353.jpg);
+   background-image: url("IMG_6353.jpg");
 }
 
 .middle-top {
-   background-image: url("../image/IMG_6327.JPG");
+   background-image: url("IMG_6327.JPG");
 }
 
 .high-top {
-   background-image: url("../image/IMG_4998.jpg");
+   background-image: url("IMG_4998.jpg");
 }
 
 .wrapper {
