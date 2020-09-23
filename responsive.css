@@ -110,15 +110,15 @@
         margin-top: 0;
     }
     .primary-top {
-        background-image: url(image/IMG_6353_2.jpg);
+        background-image: url("IMG_6353_2.jpg");
     }
     
     .middle-top {
-       background-image: url("image/IMG_6327_2.JPG");
+       background-image: url("IMG_6327_2.JPG");
     }
     
     .high-top {
-       background-image: url("image/IMG_4998_2.jpg");
+       background-image: url("IMG_4998_2.jpg");
     }
     .img-wrapper img {
         display: none;
