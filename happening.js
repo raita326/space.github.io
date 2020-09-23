@@ -111,4 +111,4 @@ function r(from, to) {
     window.location.href = 'happeningImg.html';
   }
 
-  setTimeout("openImage()",3500);
+  setTimeout("openImage()",3200);
