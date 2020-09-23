@@ -1,9 +1,8 @@
-$(window).on('scroll', function () {
-    var doch = $(document).innerHeight(); //ページ全体の高さ
-    var winh = $(window).innerHeight(); //ウィンドウの高さ
-    var bottom = doch - winh; //ページ全体の高さ - ウィンドウの高さ = ページの最下部位置
-    if (bottom <= $(window).scrollTop()) {
-    //一番下までスクロールした時に実行
-    window.location.href = 'happening.html';
-    }
+$(window).bind("scroll", function() {
+	scrollHeight = $(document).height();
+	scrollPosition = $(window).height() + $(window).scrollTop();
+	if ( (scrollHeight - scrollPosition) / scrollHeight <= 0.15) {
+        //スクロールの位置が下部5%の範囲に来た場合
+        window.location.href = 'happening.html';
+	}
 });
